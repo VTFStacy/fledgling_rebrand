@@ -6,6 +6,7 @@ body {
 a {
 	text-decoration: none;
 	color:black;
+
 }
 
 .content {
@@ -35,18 +36,19 @@ a {
 	height:50px;
 	border: 0.5px solid black;
 	text-align: center;
-	background-color: white;
+	color: blue;
 	text-transform: uppercase;
 	line-height: 50px;
 	font-size:13px;
 	background-color: white;
-    -webkit-transition: background-color 0.4s ease;
-    -moz-transition: background-color 0.4s ease;
-    -o-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 .button:hover {
-	background-color:rgba(255,205,1,0.5);
+	background-color:rgba(255,205,1);
+
 }
 
 .dropdown-menu {
@@ -58,20 +60,39 @@ a {
 	background-color: rgba(255,205,1);
 	display:none;
 }
+
 #about {
 	margin-left:200px;
+
 }
 #outreach {
 	margin-left:380px;
 }
 .menu-item {
-	margin-top:5px;
-	height:30px;
+	margin-top:0px;
+	background-color: rgba(255,205,1);
+	height:50px;
+	width: 100%;
+	color:black;
+	transition:color .3s;
+	-webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
 }
 
-#top {
-	margin-top:23px;
+.menu-item:hover {
+	background-color:white;
+	color: rgb(255,205,1);
 }
+#top a {
+	padding-top:10px;
+}
+
+#bottom  {
+	margin-bottom:10px;
+}
+
 
 .home-content {
 	margin-top:200px;
