@@ -12,11 +12,14 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 8000); // Change image every 2 seconds
 }
 
 $("#outreach1").flowtype();
-
+$(".info").flowtype({
+    fontRatio:25,
+});
+  
 
 // var num = 0
 // function slideShow() {
