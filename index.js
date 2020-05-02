@@ -15,6 +15,8 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
+$("#outreach1").flowtype();
+
 
 // var num = 0
 // function slideShow() {
